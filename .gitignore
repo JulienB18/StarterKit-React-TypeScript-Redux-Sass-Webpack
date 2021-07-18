@@ -1,0 +1,10 @@
+.idea/
+prod/
+node_modules/
+src/**/*.jsx
+tests/__coverage__/
+tests/**/*.jsx
+.vscode
+yarn-error.log
+yarn.lock
+package-lock.json

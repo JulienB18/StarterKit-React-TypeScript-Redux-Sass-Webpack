@@ -17,3 +17,6 @@ $ npm run build
 ```
 
 and render the html with a server in static mode (serve -s build).
+
+
+Use the extention Prettier (https://prettier.io/) with your IDE to format your code.

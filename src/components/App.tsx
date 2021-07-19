@@ -1,17 +1,22 @@
 import * as React from "react";
-import { hot } from "react-hot-loader";
 import logo from "../assets/svg/logo.svg";
+import ReduxButton from "./ReduxButton";
 
 import "./../assets/scss/App.scss";
-class App extends React.Component<Record<string, unknown>, undefined> {
-  render() {
+
+class App extends React.Component<any, any> {
+  render(): JSX.Element {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+          <p style={{ margin: 0 }}>
+            React Starter with Typescript, Redux, Webpack, Sass and Babel.
           </p>
+          <p>
+            React Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <ReduxButton />
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -26,4 +31,4 @@ class App extends React.Component<Record<string, unknown>, undefined> {
   }
 }
 
-export default hot(module)(App);
+export default App;

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
     "target": "es6",
     "moduleResolution": "node",
     "jsx": "react",
@@ -8,6 +9,6 @@
     "skipLibCheck": true,
     "allowJs": true
   },
-  "include": ["src/components", "custom.d.ts"],
+  "include": ["src/components", "configs/custom.d.ts"],
   "exclude": ["node_modules", "prod"]
 }

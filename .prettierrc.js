@@ -4,5 +4,7 @@ module.exports = {
   error: {
     endOfLine: "auto",
   },
-  endOfLine: "auto",
+  endOfLine: "lf",
+  printWidth: 120,
+  tabWidth: 4,
 };

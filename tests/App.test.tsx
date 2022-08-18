@@ -1,3 +1,3 @@
 it("App is rendered", () => {
-  //Test
+  // Test
 });

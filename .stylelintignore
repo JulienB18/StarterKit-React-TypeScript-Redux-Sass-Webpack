@@ -1,0 +1,12 @@
+prod/**/*.html
+prod/**/*.js
+prod/**/*.css
+src/**/*.tsx
+src/**/*.ts
+src/**/*.ejs
+node_modules/**/*.html
+node_modules/**/*.php
+node_modules/**/*.js
+node_modules/**/*.ts
+node_modules/**/*.css
+node_modules/**/*.scss

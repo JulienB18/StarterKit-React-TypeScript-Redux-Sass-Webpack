@@ -1,6 +1,6 @@
-import { createStore } from "redux";
+import { configureStore } from "@reduxjs/toolkit";
 import globalReducer from "./reducer/globalReducer";
 
-const store = createStore(globalReducer);
+const store = configureStore({ reducer: globalReducer });
 
 export default store;

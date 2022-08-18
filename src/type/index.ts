@@ -1,5 +1,5 @@
-//Reducer Action
-export type action = {
-  type: string;
-  payload: any;
+// Reducer Action
+export type actionType = {
+    type: string;
+    payload: any;
 };

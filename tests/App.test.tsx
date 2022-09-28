@@ -1,3 +1,5 @@
-it("App is rendered", () => {
-  // Test
+it('App is rendered', () => {
+    // Test
 });
+
+export {};

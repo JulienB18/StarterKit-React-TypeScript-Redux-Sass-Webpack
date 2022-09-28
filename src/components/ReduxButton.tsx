@@ -1,6 +1,8 @@
-import * as React from "react";
-import * as Redux from "react-redux";
-import { GlobalState } from "../reducer/globalReducer";
+import * as React from 'react';
+
+import * as Redux from 'react-redux';
+
+import { GlobalState } from '../reducer/globalReducer';
 
 type ButtonProps = {
     clicks: number;
@@ -20,10 +22,10 @@ class ReduxButton extends React.PureComponent<ButtonProps & DispatchProps, any> 
         return (
             <div
                 style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    marginBottom: "16px",
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    marginBottom: '16px',
                 }}
             >
                 <button
@@ -49,14 +51,14 @@ export default Redux.connect(
     }),
     (dispatch): DispatchProps => ({
         decrement: () => {
-            dispatch({ type: "DECREMENT" });
+            dispatch({ type: 'DECREMENT' });
         },
         increment: () => {
-            dispatch({ type: "INCREMENT" });
+            dispatch({ type: 'INCREMENT' });
         },
         setValue: (nb: string) => {
             if (nb) {
-                dispatch({ type: "SETVALUE", payload: parseInt(nb, 10) });
+                dispatch({ type: 'SETVALUE', payload: parseInt(nb, 10) });
             }
         },
     }),

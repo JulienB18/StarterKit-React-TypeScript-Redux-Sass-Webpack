@@ -1,8 +1,9 @@
-import * as React from "react";
-import logo from "../assets/svg/logo.svg";
-import ReduxButton from "./ReduxButton";
+import * as React from 'react';
 
-import "../assets/scss/App.scss";
+import logo from '../assets/svg/logo.svg';
+import ReduxButton from './ReduxButton';
+
+import '../assets/scss/App.scss';
 
 class App extends React.PureComponent {
     render(): JSX.Element {
